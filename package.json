@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tyankatsu0105/try-eslint-rule.git",
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "watch": "npm test -- --watch --growl",
+    "test": "mocha eslint/test/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-eslint": "^5.0.1",
+    "mocha": "^5.2.0"
+  }
+}
