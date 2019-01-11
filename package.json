@@ -10,8 +10,8 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint ./hello.js --rulesdir lib/rule",
-    "watch": "npm test -- --watch --growl",
+    "lint": "eslint ./test.js --rulesdir lib/rule",
+    "watch": "mocha test/*.js --watch --growl",
     "test": "mocha test/*.js"
   },
   "devDependencies": {
