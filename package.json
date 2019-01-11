@@ -10,13 +10,14 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint ./hello.js --rulesdir lib/rule",
     "watch": "npm test -- --watch --growl",
-    "test": "mocha eslint/test/*.js"
+    "test": "mocha test/*.js"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
     "eslint-config-eslint": "^5.0.1",
+    "eslint-plugin-node": "^8.0.1",
     "mocha": "^5.2.0",
     "np": "^3.1.0"
   }

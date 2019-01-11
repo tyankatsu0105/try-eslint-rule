@@ -1,3 +1,3 @@
 "use strict";
 
-var foo = "Hello custom rules!"();
+const foo = "Hello custom rules!"();
