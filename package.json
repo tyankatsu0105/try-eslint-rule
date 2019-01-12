@@ -18,7 +18,8 @@
   "scripts": {
     "lint": "eslint ./test.js --rulesdir lib/rule",
     "watch": "mocha test/*.js --watch --growl",
-    "test": "mocha test/*.js"
+    "test": "mocha test/*.js",
+    "np": "np"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
