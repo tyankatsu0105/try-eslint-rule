@@ -15,7 +15,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint ./test.js --rulesdir lib/rule",
+    "lint": "eslint ./test.js --rulesdir lib/rules",
     "watch": "mocha test/*.js --watch --growl",
     "test": "mocha test/*.js",
     "np": "np"

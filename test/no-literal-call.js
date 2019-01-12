@@ -6,7 +6,7 @@ const RuleTester = require("eslint").RuleTester;
 // テスターを作って実行する
 // tester.run(ルール名, ルール定義, テストパターン);
 const tester = new RuleTester();
-tester.run("no-literal-call", require("../lib/rule/no-literal-call"), {
+tester.run("no-literal-call", require("../lib/rules/no-literal-call"), {
   valid: [
     // 変数や関数を呼び出すのは正しい!
     {
