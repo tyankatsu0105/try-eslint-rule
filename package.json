@@ -5,7 +5,6 @@
   "repository": "git@github.com:tyankatsu0105/try-eslint-rule.git",
   "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com>",
   "license": "MIT",
-  "private": true,
   "files": [
     "LICENSE",
     "README.md",
