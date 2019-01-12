@@ -1,6 +1,6 @@
 {
   "name": "@tyankatsu0105/eslint-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "repository": "git@github.com:tyankatsu0105/try-eslint-rule.git",
   "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com>",
