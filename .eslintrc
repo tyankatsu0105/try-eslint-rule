@@ -1,8 +1,4 @@
 {
-  "extends": "eslint",
-  "env": {
-    "node": true
-  },
   "rules": {
     "no-literal-call": 2,
     "no-var": 2
